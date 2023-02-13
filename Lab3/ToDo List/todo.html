@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+
+    <style>
+        body {
+        }
+
+        .upper-block{
+            padding: 1rem 2rem;
+            margin: 0;
+            background-color: dimgray;
+            float: bottom;
+
+        }
+        .todo-word {
+          color: white;
+          font-family: Helvetica, sans-serif;
+          font-weight: lighter;
+        }
+        .big-name{
+          text-align: center;
+          padding-right: 30%;
+          font-family: Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 3rem;
+        }
+        .input-box{
+          text-align: center;
+        }
+        .input-line{
+          padding: 1.1rem 2rem;
+          border: 1px solid gainsboro;
+          border-radius: 15px;
+          font-size: 1rem;
+          box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        }
+        .add-button{
+          margin: 1rem 2rem;
+          background-color: steelblue;
+          border: 2px solid black;
+          padding: 1rem 1.3rem;
+          color: white;
+          font-size: 1rem;
+          border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class = "upper-block">
+        <h1 class = 'todo-word'>
+              ToDo List
+        </h1>
+    </div>
+    <h1 class = "big-name">
+        ToDo List
+    </h1>
+    <div class = "input-box">
+        <input type = "text" class = "input-line" placeholder = "New Task">
+        <button class = "add-button">
+          Add
+        </button>
+    </div>
+    <div class = "taskbox">
+        <ul class = "tasklist">
+          <li>
+            <button>
+            </button>
+            First task
+          </li>
+        </ul>
+    </div>
+</body>
+</html>
