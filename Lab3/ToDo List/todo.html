@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
     <title>ToDo List</title>
 
     <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
         }
 
@@ -46,6 +54,42 @@
           font-size: 1rem;
           border-radius: 5px;
         }
+        ul li {
+            cursor: pointer;
+            position: relative;
+            padding: 12px 8px 12px 40px;
+            list-style-type: none;
+            background: #eee;
+            font-size: 14px;
+            transition: 0.2s;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+            /* make the list items unselectable */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        ul li:nth-child(odd) {
+            background: #b2bec3;
+        }
+
+        /* Darker background-color on hover */
+        ul li:hover {
+            background: #ddd;
+        }
+
+        /* When clicked on, add a background color and strike out text */
+        ul li.checked {
+            background: #888;
+            color: #fff;
+            text-decoration: line-through;
+        }
+        .fa-trash-alt{
+            float: right;
+        }
+
 
 
     </style>
@@ -67,13 +111,10 @@
         </button>
     </div>
     <div class = "taskbox">
-        <ul class = "tasklist">
-          <li>
-            <button>
-            </button>
-            First task
-          </li>
+        <ul class = "unlist">
+
         </ul>
     </div>
+    <script src = "todo.js"></script>
 </body>
 </html>
