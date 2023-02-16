@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ladder</title>
+</head>
+<body>
+  <script>
+    let ladder = {
+      step: 0,
+      up() {
+        let arrowUp = () => this.step++;
+        arrowUp();
+        return this;
+      },
+      down() {
+        let arrowDown = () => this.step--;
+        arrowDown();
+        return this;
+      },
+      showStep: function() { // shows the current step
+        let arrowShow = () => alert( this.step );
+        arrowShow()
+        return this;
+      }
+    };
+
+    ladder.up().up().down().showStep().down().showStep();
+  </script>
+</body>
+</html>

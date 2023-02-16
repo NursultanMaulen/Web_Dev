@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        let calculator = {
+          read(){
+            this.a = +prompt("Enter first number: ", 4);
+            this.b = +prompt("Enter second number: ", 5);
+          },
+          sum(){
+            return this.a + this.b;
+          },
+          mul(){
+            return this.a * this.b;
+          }
+        };
+
+        calculator.read();
+
+        alert( calculator.sum() );
+        alert( calculator.mul() );
+
+
+    </script>
+</body>
+</html>
