@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPAM</title>
+</head>
+<body>
+    <script>
+      let st = prompt("Enter a string:");
+
+      function checkSpam(a){
+        if(st.toLowerCase().indexOf('viagra') != -1 || st.toLowerCase().indexOf('xxx') != -1){
+          return true;
+        }
+        else{
+          return false;
+        }
+      }
+
+      alert(checkSpam(st));
+    </script>
+</body>
+</html>

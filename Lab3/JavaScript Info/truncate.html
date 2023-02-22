@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Truncate</title>
+</head>
+<body>
+    <script>
+      let st = prompt("Enter a text?");
+      let l = prompt("Enter a max length");
+      function truncate(str, maxlength){
+          return (str.length > maxlength) ? str.slice(0, maxlength) + '...' : str;
+      }
+
+      alert(truncate(st, l));
+
+    </script>
+</body>
+</html>
