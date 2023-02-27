@@ -1,0 +1,13 @@
+<h2>Categories</h2>
+
+
+<div *ngFor = "let category of categories">
+    <h3>
+        <button type = "button" (click) = visit(category.id)
+                [title] = "category.name"
+                [routerLink]="['/categories', category.id]">
+            {{ category.name }}
+        </button>
+
+    </h3>
+</div>
