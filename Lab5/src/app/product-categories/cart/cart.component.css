@@ -1,0 +1,11 @@
+.cart-bar{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cart-item{
+    border: 5px skyblue dashed;
+}
+
+.shippings{
+    margin: 0;
+}

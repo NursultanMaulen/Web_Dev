@@ -1,0 +1,16 @@
+.categories-button{
+    display: table-row;
+    width: 50%;
+    height: 10rem;
+    border-radius: 10px;
+    border: 3px black solid;
+    background-color: #DC143C;
+    font-size: 150%;
+    text-align: center;
+}
+.categories-name{
+    text-align: center;
+}
+.buttons-box{
+    text-align: center;
+}

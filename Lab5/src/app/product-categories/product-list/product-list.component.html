@@ -14,6 +14,9 @@
         Description: {{ product.description }}
       </p>
 
+      <p *ngIf = "product.description == ''">
+      </p>
+
       <button type = "button" (click) = "share(product.link)">
         Share
       </button>
@@ -26,14 +29,14 @@
         Like
       </button>
 
-      <p>
-        Liked: {{ product.likes }}
-      </p>
-
       <app-product-alerts
         [product]="product"
         (notify)="onNotify()">
       </app-product-alerts>
+
+      <p>
+        Liked: {{ product.likes }}
+      </p>
 
     </h3>
   </div>

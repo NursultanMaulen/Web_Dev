@@ -1,9 +1,9 @@
-<h2> Product details </h2>
+<h2 class = "details-bar"> Product details </h2>
 
-<div *ngIf = "product">
-  <img src = '{{ product.imglink }}' width = 300px>
-  <h3> {{ product.name }} </h3>
-  <span> {{ product.rating }}/10 </span>
+<div class = "details" *ngIf = "product">
+  <img src = '{{ product.imglink }}' width = 300px alt = "Product Image">
+  <h4> {{ product.name }} </h4>
+  <span> Rating: {{ product.rating }}/10 </span>
   <h4> {{ product.price | currency }} </h4>
   <p> {{ product.description }} </p>
   <button type="button" (click) = "addToCart(product)"> Buy </button>
