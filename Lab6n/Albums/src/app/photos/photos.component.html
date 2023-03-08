@@ -1,0 +1,16 @@
+
+<button type = "button" routerLink="/posts/{{post_id}}"> < Return back</button>
+
+<h2>Photos list</h2>
+
+<ul *ngIf="loaded">
+  <li *ngFor="let photo of photos">
+    <a>
+      Photo #{{photo.id}} {{photo.title}}
+    </a>
+    <br/>
+    <img src = "{{photo.url}}" width = '100px'>
+  </li>
+</ul>
+
+<h3 *ngIf="!loaded">Photos are loading...</h3>

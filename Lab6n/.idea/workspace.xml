@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="Lab6 Updates">
+      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3/JavaScript Info/.idea/JavaScript Info.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5/src/app/.idea/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/facebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/index.pack" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MiqQpxZO9hek6nZ2ZMd1jAOJas" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/study/semester4/webdev/repo/Web_Dev/Lab6n/Albums/package.json",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\user\\Desktop\\study\\semester4\\webdev\\repo\\Web_Dev\\Lab6n\\Albums\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Albums/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="" />
+      <created>1678260736557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678260736557</updated>
+      <workItem from="1678260737847" duration="277000" />
+      <workItem from="1678261033708" duration="16504000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lab6 Updates">
+      <created>1678283628517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283628517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab6 Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab6 Updates" />
+  </component>
+</project>
