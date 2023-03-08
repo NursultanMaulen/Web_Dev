@@ -1,0 +1,22 @@
+button{
+  background-color: chocolate;
+  border: 2px black solid;
+  border-radius: 3px;
+  color: paleturquoise;
+  font-family: "Berlin Sans FB";
+}
+
+h2{
+  text-align: center;
+  font-family: "Agency FB";
+  font-size: 3rem;
+}
+
+h4{
+  font-family: "Agency FB";
+  font-size: 2rem;
+}
+input{
+  border: 3px black solid;
+}
+

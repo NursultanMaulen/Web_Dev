@@ -1,0 +1,17 @@
+
+<button type = "button" routerLink="/posts">< Return back</button>
+
+<div *ngIf="loaded">
+  <h2>Post detail #{{post.id}}</h2>
+
+  <h4>Title: {{post.title}}</h4>
+  <input type="text" placeholder="new Album's title" [(ngModel)]="newTitle">
+  <button type = 'button' (click)="updatePost()">Save</button>
+
+  <p>{{post.body}}</p>
+
+  <button type = "button" routerLink="photos">Checkout photos</button>
+
+</div>
+
+<h3 *ngIf="!loaded">Post item is loading...</h3>

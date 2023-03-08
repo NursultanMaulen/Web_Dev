@@ -1,4 +1,4 @@
-export const albums = [
+[
   {
     "userId": 1,
     "id": 1,
@@ -499,4 +499,5 @@ export const albums = [
     "id": 100,
     "title": "enim repellat iste"
   }
-];
+]
+

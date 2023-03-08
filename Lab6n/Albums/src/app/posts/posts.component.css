@@ -1,0 +1,44 @@
+
+html{
+  background-color: skyblue;
+}
+
+button{
+  background-color: chocolate;
+  border: 2px black solid;
+  border-radius: 3px;
+  color: paleturquoise;
+  font-family: "Berlin Sans FB";
+}
+h2{
+  font-family: Degrassi;
+  text-align: center;
+  font-size: 2rem;
+}
+
+fieldset{
+  border: 5px black dashed;
+  text-align: center;
+  margin: 5px 30rem;
+  padding: 10px 0px;
+}
+input{
+  border: 3px black solid;
+}
+textarea{
+  margin: 5px;
+  border: 2px black solid;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  font-family: "Agency FB";
+  font-size: 2rem;
+  border: 2px solid darkorange;
+}
+
