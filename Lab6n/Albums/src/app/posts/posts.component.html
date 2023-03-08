@@ -1,11 +1,11 @@
 <button type = "button" routerLink="/home"> < Return back</button>
 
-<h2>Posts list</h2>
+<h2>Albums list</h2>
 
 <fieldset>
-  <input type="text" [(ngModel)]="newPost.title" placeholder="New Post's title"><br/>
-  <textarea [(ngModel)]="newPost.body" placeholder="New Post's body"></textarea><br/>
-  <button (click)="addPost()">Add post</button>
+  <input type="text" [(ngModel)]="newPost.title" placeholder="New Album's title"><br/>
+  <textarea [(ngModel)]="newPost.body" placeholder="New Album's body"></textarea><br/>
+  <button (click)="addPost()">Add album</button>
 </fieldset>
 
 <ul *ngIf="loaded">
@@ -13,8 +13,8 @@
     <a routerLink="/posts/{{post.id}}">
       {{post.id}}) {{post.title}}
     </a>
-    <button type = "button" (click) = "deletePost(post.id)">Delete this Post</button>
+    <button type = "button" (click) = "deletePost(post.id)">Delete album</button>
   </li>
 </ul>
 
-<h3 *ngIf="!loaded">Posts are loading...</h3>
+<h3 *ngIf="!loaded">Albums are loading...</h3>

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="Lab6 Updates">
-      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/Lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3/JavaScript Info/.idea/JavaScript Info.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/app/.idea/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/facebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.angular/cache/15.1.6/angular-webpack/ba3f1d536af187436941282290a02363e4718532/index.pack" afterDir="false" />
+    <list default="true" id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Albums/src/app/post-detail/post-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Albums/src/app/post-detail/post-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Albums/src/app/posts/posts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Albums/src/app/posts/posts.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678260736557</updated>
       <workItem from="1678260737847" duration="277000" />
-      <workItem from="1678261033708" duration="16504000" />
+      <workItem from="1678261033708" duration="16784000" />
     </task>
     <task id="LOCAL-00001" summary="Lab6 Updates">
       <created>1678283628517</created>
@@ -88,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678283628517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab6 Updates">
+      <created>1678283780315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283780315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
