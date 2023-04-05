@@ -4,10 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="">
+    <list default="true" id="a2fe4006-2976-4236-b733-ff86bd5654ba" name="Changes" comment="Lab6 Updates">
+      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.angular/cache/15.1.6/angular-webpack/5b6f29b81e78c808d189ec61b212688b059e55d4/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/src/app/cart/cart.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/Lab6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/about/about.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/about/about.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/about/about.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/about/about.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-details/album-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-details/album-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-details/album-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-details/album-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-ids.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-photos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-photos/album-photos.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-photos/album-photos.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-photos/album-photos.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/album-photos/album-photos.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/albums.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/albums/albums.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/albums/albums.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/albums/albums.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/albums/albums.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/not-found/not-found.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/not-found/not-found.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/not-found/not-found.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/app/not-found/not-found.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/album_project/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Albums/src/app/post-detail/post-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Albums/src/app/post-detail/post-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Albums/src/app/posts/posts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Albums/src/app/posts/posts.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +94,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/study/semester4/webdev/repo/Web_Dev/Lab6n/Albums/package.json",
+    "last_opened_file_path": "C:/Users/user/Desktop/study/semester4/webdev/repo/Web_Dev/Lab6n",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +129,9 @@
       <option name="presentableId" value="Default" />
       <updated>1678260736557</updated>
       <workItem from="1678260737847" duration="277000" />
-      <workItem from="1678261033708" duration="16784000" />
+      <workItem from="1678261033708" duration="16966000" />
+      <workItem from="1678425434372" duration="345000" />
+      <workItem from="1678425801208" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="Lab6 Updates">
       <created>1678283628517</created>
@@ -89,11 +147,29 @@
       <option name="project" value="LOCAL" />
       <updated>1678283780315</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lab6 Updates">
+      <created>1678283975290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678283975290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab6 Updates" />
