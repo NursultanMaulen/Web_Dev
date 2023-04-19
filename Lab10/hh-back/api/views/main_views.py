@@ -2,15 +2,16 @@ import json
 
 from django.views.decorators.csrf import csrf_exempt
 from django.http.response import JsonResponse
+from django.views.generic import ListView
 from api.models import Company, Vacancy
 
-from api.serializers import CompanySerializer1,CompanySerializer2, VacancySerializer
+from api.serializers import CompanySerializer1, CompanySerializer2, VacancySerializer
 
 @csrf_exempt
 def company_list(request):
     if request.method == 'GET':
         companies = Company.objects.all()
-        serializer = CompanySerializer2(companies, many=True)
+        serializer = CompanySerializer1(companies, many=True)
         return JsonResponse(serializer.data, safe=False)
     if request.method == 'POST':
         data = json.loads(request.body)
@@ -18,6 +19,12 @@ def company_list(request):
         company = Company.objects.create(name=company_name)
         return JsonResponse(company.to_json())
 
+class CompanyListView(ListView):
+    def get(self, request):
+        if request.method == 'GET':
+            companies = Company.objects.all()
+            serializer = CompanySerializer1(companies, many=True)
+            return JsonResponse(serializer.data, safe=False)
 
 @csrf_exempt
 def company_detail(request, company_id):

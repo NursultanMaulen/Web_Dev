@@ -2,6 +2,9 @@ import {Component, OnInit} from '@angular/core';
 import {Company} from './models'
 import {CompanyService} from "./company.service";
 
+import { Router } from '@angular/router';
+import { VacanciesComponent } from './vacancies/vacancies.component'
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -21,6 +24,7 @@ export class AppComponent implements OnInit {
       this.companies = companies;
     });
   }
+
 
   addCompany() {
     this.companyService.createCompany(this.newCompany).subscribe((company) => {
