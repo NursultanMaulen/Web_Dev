@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{vacancy.id}} - {{vacancy.name}} => <button (click)="deleteVacancy(vacancy.id)">delete vacancy</button>
+  </li>
+</ul>

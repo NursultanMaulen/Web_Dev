@@ -25,6 +25,15 @@ export class CompanyService {
     )
   }
 
+  updateCompany(company_id: number, company_name: string): Observable<Company> {
+    return this.client.put<Company>(
+      `${this.BASE_URL}/api/companies/${company_id}/`,
+      {
+        name: company_name
+      }
+    )
+  }
+
   deleteCompany(company_id: number): Observable<any> {
     return this.client.delete(
       `${this.BASE_URL}/api/companies/${company_id}/`

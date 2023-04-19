@@ -1,17 +1,57 @@
 
-<h1>Categories</h1>
-
+<h1>Companies</h1>
+<h2> Adding company: </h2>
 <fieldset>
-  <label>Category name: </label>
+  <label>Company name: </label>
   <input type="text" [(ngModel)]="newCompany">
-  <button (click)="addCompany()">Add category</button>
+  <button (click)="addCompany()">Add company</button>
 </fieldset>
 
+<h2> Updating company </h2>
+<fieldset>
+  <label> Company id: </label>
+  <input type="number" [(ngModel)]="companyId">
+  <label>Company name: </label>
+  <input type="text" [(ngModel)]="companyName">
+  <button (click)="updateCompany(companyId, companyName)">Update company</button>
+</fieldset>
 <ul>
   <li *ngFor="let company of companies">
     {{company.id}} - {{company.name}} <button (click)="deleteCompany(company.id)">X</button>
     <a routerLink = '/{{company.id}}/vacancies'>checkout vacancies</a>
   </li>
 </ul>
+
+<h1>Vacancies</h1>
+<h2> Adding vacancies </h2>
+<fieldset>
+  <label>Vacancy name: </label>
+  <input type="text" [(ngModel)]="vacancyName">
+  <label>Vacancy salary: </label>
+  <input type="number" [(ngModel)]="vacancySalary">
+  <label>Vacancy description: </label>
+  <input type="text" [(ngModel)]="vacancyDescription">
+  <br>
+  <label>Vacancy company: </label>
+  <input type="number" [(ngModel)]="vacancyCompany">
+  <button (click)="addVacancy()">Add vacancy</button>
+</fieldset>
+<h2> Updating vacancies </h2>
+<fieldset>
+  <label> Vacancy id: </label>
+  <input type="number" [(ngModel)]="vacancyId">
+  <label>Vacancy name: </label>
+  <input type="text" [(ngModel)]="vacancyName">
+  <label>Vacancy salary: </label>
+  <input type="number" [(ngModel)]="vacancySalary">
+  <label>Vacancy description: </label>
+  <input type="text" [(ngModel)]="vacancyDescription">
+  <br>
+  <label>Vacancy company: </label>
+  <input type="number" [(ngModel)]="vacancyCompany">
+  <button (click)="updateVacancy(vacancyId, vacancyName, vacancySalary, vacancyDescription, vacancyCompany)">Update vacancy</button>
+</fieldset>
+
+
 
 <router-outlet></router-outlet>
