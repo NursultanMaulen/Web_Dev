@@ -1,0 +1,13 @@
+<h1>Categories</h1>
+
+<fieldset>
+  <label>Category name: </label>
+  <input type="text" [(ngModel)]="newCompany">
+  <button (click)="addCompany()">Add category</button>
+</fieldset>
+
+<ul>
+  <li *ngFor="let company of companies">
+    {{company.id}} - {{company.name}} <button (click)="deleteCompany(company.id)">X</button>
+  </li>
+</ul>
